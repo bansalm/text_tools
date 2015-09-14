@@ -43,7 +43,7 @@ This script reads text containing ANSI sql queries from <STDIN> and extracts
 the table names and output them to <STDOUT>. It sorts and dedupes the table
 names before outputing them.
 It detects table names by searching for the text that appears after sql
-keywords FROM and JOIN.
+keywords 'FROM' and 'JOIN'.
     """
 
     parser = argparse.ArgumentParser(description='This script reads text '
